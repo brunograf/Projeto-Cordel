@@ -64,7 +64,6 @@ section p {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-family: var(--fonte-texto);
-    background: cover right center fixed;
 }
 
 .imagem p {
@@ -76,10 +75,16 @@ section p {
 
 .imagem#img01 {
     background-image: url(pacote-d012/imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .imagem#img02 {
     background-image: url(pacote-d012/imagens/background002.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 footer {
